@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-06-2023 a las 00:03:27
+-- Tiempo de generación: 19-06-2023 a las 00:18:10
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -41,8 +41,8 @@ CREATE TABLE `registro` (
 --
 
 INSERT INTO `registro` (`nombre`, `apellido1`, `apellido2`, `email`, `login`, `password`) VALUES
-('Gustavo', 'Miranda', 'Jim?nez', 'gusmir@gmail.com', 'gus123', 'onfkskfl'),
-('Maria', 'Miranda', 'Jim?nez', 'Mariamirandatic@gmail.com', 'maria123', 'jjj22233');
+('Gustavo', 'Miranda', 'Jiménez', 'gustavomiranda@gmail.com', 'gus123', 'gguu33'),
+('Maria', 'Miranda', 'Jiménez', 'Mariamirandatic@gmail.com', 'MariaMir2', 'Maria123');
 
 --
 -- Índices para tablas volcadas
