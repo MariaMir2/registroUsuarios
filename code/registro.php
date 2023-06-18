@@ -56,7 +56,6 @@ if ($conn->query($sql) === true) {
 // Cerrar conexión a la base de datos
 $conn->close();
 
-echo "<script>alert('Registro completado con éxito.');</script>";
 echo "<script>window.location.href = 'registro.html';</script>";
 exit;
 

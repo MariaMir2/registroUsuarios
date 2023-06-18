@@ -26,7 +26,7 @@ $sql = "SELECT * FROM registro";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<h2>Lista de usuarios registrados:</h2>";
+    echo "<h1>Usuarios registrados</h1>";
     echo "<table>";
     echo "<tr><th>Nombre</th><th>Primer Apellido</th><th>Segundo Apellido</th><th>Email</th><th>Login</th></tr>";
     while ($row = $result->fetch_assoc()) {
@@ -49,7 +49,7 @@ $conn->close();
 ?>
 <br>
 <form action="registro.html">
-    <input class="boton" type="submit" value="Formulario de Registro">
+    <input class="boton" type="submit" value="Registro de Usuarios">
 </form>
 
 </body>
